@@ -1,8 +1,71 @@
-#gameHeader {
-    background-color: orange;
-    width: 25%;
+body {
+    background-image: url("../images/background_img.jpeg");
 }
 
+#gameHeader {
+    background-color: orange;
+    width: 17%;
+    padding: 5px;
+   
+}
+
+.container {
+    background-color: peachpuff;
+    width: 40%;
+    height: 250px;
+}
+.instructions {
+    font-weight:bold;
+    color: green;
+    
+}
+
+#randomNumBox {
+    background-color: lightgreen;
+    width: 13%;
+    float: left;
+}
+
+#winsLosses {
+    background-color: lightblue;
+    width: 10%;
+    overflow: hidden;
+    padding-left: 35px;
+}
+
+.imageContainer {
+    clear: left;
+}
+
+#totalScore {
+    background-color: teal;
+    width: 13%;
+}
+
+#incrementedTotal {
+    background-color: teal;
+    width: 13%;
+}
+
+#diamond {
+    width: 100px;
+    height: 100px;
+}
+
+#emerald {
+    width: 100px;
+    height: 100px;
+}
+
+#ruby {
+    width: 100px;
+    height: 100px;
+}
+
+#saphire {
+    width: 100px;
+    height: 100px;
+}
 h1 {
-    color: blue;
+    color: white;
 }

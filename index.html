@@ -7,35 +7,38 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+        
     </head>
     <body>
         <div id="gameHeader">
             <h1>CrystalCollector!</h1>
         </div>
         <div class="container">
-            <p>You will be given a random number at the start of the game.</p>
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-            <p>You will win the game by matching your total score to a random number. You lose the game if your score goes above the random number.</p>
-            <p>The value of each crystal is hidden until you click on it.</p>
-            <p>Each time when the game starts, the game will change the value of each crystal.</p>
+            <p class="instructions">You will be given a random number at the start of the game.</p>
+            <p class="instructions">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p class="instructions">You will win the game by matching your total score to a random number. You lose the game if your score goes above the random number.</p>
+            <p class="instructions">The value of each crystal is hidden until you click on it.</p>
         </div>
         <div id="randomNumBox">
             <h1>Number inserted with DOM</h1>
         </div>
         <div id="winsLosses">
-            <h1>Wins + Losses use DOM</h1>
+            <p></p>
+            <p></p>
         </div> 
         <div class="imageContainer">
-            <img src="assets/images/diamond.jpg">
-            <img src="assets/images/emerald.jpg">
-            <img src="assets/images/ruby.png">
-            <img src="assets/images/saphire.jpg">
+            <img id="diamond" src="assets/images/diamond.jpg">
+            <img id="emerald" src="assets/images/emerald.jpg">
+            <img id="ruby" src="assets/images/ruby.png">
+            <img id="saphire" src="assets/images/saphire.jpg">
         </div>
         <div id="totalScore">
-            <p>Your total score is: DOM</p>
+            <p id="elementTotalNum">Your total score is: DOM</p>
         </div>
         <div id="incrementedTotal">
-            <h1>Num - Use DOM</h1>
+            <h1 id="elementNum">Num - Use DOM</h1>
         </div>
 
     </body>
