@@ -24,6 +24,7 @@ body {
     background-color: lightgreen;
     width: 13%;
     float: left;
+    font-size: 24px;
 }
 
 #winsLosses {

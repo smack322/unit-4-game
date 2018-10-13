@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="assets/javascript/game.js"></script>
+        
         
     </head>
     <body>
@@ -18,15 +18,15 @@
         <div class="container">
             <p class="instructions">You will be given a random number at the start of the game.</p>
             <p class="instructions">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-            <p class="instructions">You will win the game by matching your total score to a random number. You lose the game if your score goes above the random number.</p>
+            <p class="instructions">Your total score isou will win the game by matching your total score to a random number. You lose the game if your score goes above the random number.</p>
             <p class="instructions">The value of each crystal is hidden until you click on it.</p>
         </div>
         <div id="randomNumBox">
-            <h1>Number inserted with DOM</h1>
+            <h1></h1>
         </div>
         <div id="winsLosses">
-            <p></p>
-            <p></p>
+            <p id="gameWon">Wins: </p>
+            <p id="gameLost">Losses: </p>
         </div> 
         <div class="imageContainer">
             <img id="diamond" src="assets/images/diamond.jpg">
@@ -35,11 +35,11 @@
             <img id="saphire" src="assets/images/saphire.jpg">
         </div>
         <div id="totalScore">
-            <p id="elementTotalNum">Your total score is: DOM</p>
+            <p id="elementTotalNum"></p>
         </div>
         <div id="incrementedTotal">
-            <h1 id="elementNum">Num - Use DOM</h1>
+            <h1 id="elementNum"></h1>
         </div>
-
+        <script src="assets/javascript/game.js"></script>
     </body>
 </html>
